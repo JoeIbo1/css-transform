@@ -1,47 +1,77 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header,
 main,
 footer {
-    background-color: #eee;
-    margin-bottom: 1%;
-    padding: 2%;
+  background-color: #eee;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
 .box {
-    width: 10%;
-    aspect-ratio: 1/1;
-    padding: 1%;
-    margin: 0.3%;
+  width: 10%;
+  aspect-ratio: 1/1;
+  padding: 1%;
+  margin: 0.3%;
 }
 
 #container {
-    position: relative;
-    border: 3px red dashed;
-    width: 100%;
-    aspect-ratio: 10/9;
+  position: relative;
+  border: 3px red dashed;
+  width: 100%;
+  aspect-ratio: 10/9;
 }
 
 /* SKRIV KUN KODE HERUNDER */
 
 .redBox {
-    background-color: #ff1d00;
+  background-color: #ff1d00;
+
+  position: absolute;
+  transform-origin: 0 100%;
+  rotate: 45deg;
+  top: 0;
+  left: 11%;
+  height: 250px;
+  width: 250px;
 }
 
 .yellowBox {
-    background-color: #ffeb00;
+  background-color: #ffeb00;
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  transform-origin: 0 100%;
+  top: 39%;
+  left: 10%;
 }
 
 .pinkBox {
-    background-color: #ff9ecf;
+  background-color: #ff9ecf;
+
+  position: absolute;
+  transform-origin: 0 100%;
+  top: 50%;
+  left: 15%;
 }
 
 .greenBox {
-    background-color: #1fd81f;
+  background-color: #1fd81f;
+
+  position: absolute;
+  transform-origin: 0 100%;
+  top: 50%;
+  left: 55%;
 }
 
 .blueBox {
-    background-color: #0180fc;
+  background-color: #0180fc;
+  rotate: 360deg;
+  position: absolute;
+  transform-origin: 0 100%;
+  top: 55%;
+  left: 35%;
+  height: 150px;
 }
